@@ -481,11 +481,15 @@ h6,
 #menu-0 .close-icon::after {
   background-color: #ffffff;
 }
-#form2-1 .mbr-section-title {
-  color: #fff;
+#form4-7 .mbr-section-title {
+  color: #ffffff;
+  text-align: center;
 }
-#form2-1 .mbr-section-subtitle {
-  color: #a0a0a0;
+#form4-7 .mbr-section-text {
+  color: #ffffff;
+}
+#form4-7 .mbr-section-text B {
+  text-align: center;
 }
 #social-buttons2-3 .mbr-section-title,
 #social-buttons2-3 .btn-social {

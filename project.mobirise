@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 4,
+    "uniqCompNum": 8,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -188,48 +188,69 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"http://www.imdb.com/title/tt0838283/\" data-toolbar=\"-mbrBtnMove\">FOR MEN</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"http://www.imdb.com/title/tt0332280/?ref_=fn_al_tt_1\" data-toolbar=\"-mbrBtnMove\">Not for Women</a>"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            }
-          },
+          "alias": "colorm/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "form2",
-          "_anchor": "form2-1",
+          "_name": "form4",
+          "_anchor": "form4-7",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1198.jpg",
+            "bgColor": "#2c3e50",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayOpacity": 0.75,
+            "overlayColor": "#2c3e50",
             "showTitle": true,
-            "showSubTitle": true
+            "showText": false,
+            "countdown": "2017/10/01"
           },
-          "title": "Interest List",
-          "subtitle": "Be the first to begin leveling up. Late Fall 2017",
+          "title": "Interest List: Be the first to begin leveling up. Late Fall 2017",
+          "text": "",
           "form": {
             "action": "cyyoung1903@gmail.com",
             "alerts": {
               "success": "Thanks for being interested bro! Initial prodict launch is slated for late fall 2017, so in the meantime, we'll keep you posted as our chemists, rocket scientists and Bad MoFo's refine the final product!"
             },
             "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
               "email": {
                 "title": "Email",
-                "customTitle": "Enter Your Email Address..."
+                "visible": true,
+                "customTitle": "Email"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe<span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-text B": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_styles": {
